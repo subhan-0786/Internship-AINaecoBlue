@@ -11,13 +11,12 @@ const Projects = ({ isActive }) => {
       linkType: "demo"
     },
     {
-      title: "React Learning Projects",
-      description: "Built multiple React projects while following the \"Chai aur React\" playlist, including background changer, currency converter, and context API implementations.",
-      techStack: ["React", "JSX", "Hooks", "Context API", "Redux Toolkit", "Appwrite"],
-      // Add your React projects GitHub link here if available
-      // link: "https://github.com/your-username/react-projects",
-      // linkText: "View on GitHub",
-      // linkType: "github"
+      title: "Weather App",
+      description: "Weather App, a sleek and modern single-page application built with React to provide real-time weather information for cities worldwide.",
+      techStack: ["React", "JSX", "Hooks", "Context API", "Redux Reducer"],
+      link: "https://subhan-0786.github.io/weatherApp/",
+      linkText: "Visit",
+      linkType: "website"
     },
     {
       title: "Object & Array Destructuring Assignment",

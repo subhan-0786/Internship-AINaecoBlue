@@ -19,7 +19,7 @@ const Navigation = ({ activeSection, showSection }) => {
         className={`nav-btn ${activeSection === 'weekly' ? 'active' : ''}`}
         onClick={() => showSection('weekly')}
       >
-        Weekly Progress
+        React Journey
       </button>
       <button 
         className={`nav-btn ${activeSection === 'projects' ? 'active' : ''}`}
