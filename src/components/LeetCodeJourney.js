@@ -89,6 +89,38 @@ const LeetCodeJourney = ({ isActive }) => {
         { name: "Missing Number", file: "Missing-Number.js" },
         { name: "Reverse String", file: "Reverse-String.js" }
       ]
+    },
+    {
+      date: "August 20, 2025",
+      problems: [
+        { name: "Array Prototype Last", file: "Array-Prototype-Last.js" },
+        { name: "Array Reduce Transformation", file: "Array-Reduce-Transformation.js" },
+        { name: "Function Composition", file: "Function-Composition.js" }
+      ]
+    },
+    {
+      date: "August 21, 2025",
+      problems: [
+        { name: "Counter II", file: "Counter-II.js" },
+        { name: "Allow One Function Call", file: "Allow-One-Function-Call.js" },
+        { name: "Create Hello World Function", file: "Create-Hello-World-Function.js" }
+      ]
+    },
+    {
+      date: "August 22, 2025",
+      problems: [
+        { name: "Chunk Array", file: "Chunk-Array.js" },
+        { name: "Return Length of Arguments Passed", file: "Return-Length-of-Arguments-Passed.js" },
+        { name: "Array Wrapper", file: "Array-Wrapper.js" }
+      ]
+    },
+    {
+      date: "August 25, 2025",
+      problems: [
+        { name: "Add Two Promises", file: "Add-Two-Promises.js" },
+        { name: "Sort By", file: "Sort-By.js" },
+        { name: "Interval Cancellation", file: "Interval-Cancellation.js" }
+      ]
     }
   ];
 
