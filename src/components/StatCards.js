@@ -17,7 +17,7 @@ const StatCards = () => {
         <div className="stat-card" style={{ borderLeft: '4px solid #f59e0b' }}>
           <h1> 📅 </h1>
           <span className="stat-label">Weeks Completed</span>
-          <span className="stat-number" style={{ color: '#f59e0b' }}>3</span>
+          <span className="stat-number" style={{ color: '#f59e0b' }}>4</span>
         </div>
         <div className="stat-card" style={{ borderLeft: '4px solid #7c3aed' }}>
           <h1> ⚛️ </h1>
