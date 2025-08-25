@@ -49,6 +49,22 @@ const Overview = ({ isActive }) => {
           </div>
         </div>
       </div>
+
+      <div className="week-card">
+        <div className="week-title">Week 4: Advanced React</div>
+        <div className="week-period">August 18 - August 22, 2025</div>
+        <div className="achievements">
+          <div className="achievement-item">
+            🎯 Leaned and implemented Context API, Redux, React-Redux and Redux Toolkit
+          </div>
+          <div className="achievement-item">
+            📚 Completed Weather App Project and Working on Portal Development
+          </div>
+          <div className="achievement-item">
+            🏗️ Weekend Project: Internship Portal (React, ContextAPI, Redux Toolkit)
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
