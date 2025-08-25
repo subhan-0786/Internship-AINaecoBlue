@@ -7,12 +7,12 @@ const StatCards = () => {
         <div className="stat-card">
           <h1> 🎯 </h1>
           <span className="stat-label">Days of LeetCode</span>
-          <span className="stat-number">11</span>
+          <span className="stat-number">16</span>
         </div>
         <div className="stat-card" style={{ borderLeft: '4px solid #10b981' }}>
           <h1> 💻 </h1>
           <span className="stat-label">Problems Solved</span>
-          <span className="stat-number" style={{ color: '#10b981' }}>30</span>
+          <span className="stat-number" style={{ color: '#10b981' }}>45</span>
         </div>
         <div className="stat-card" style={{ borderLeft: '4px solid #f59e0b' }}>
           <h1> 📅 </h1>
