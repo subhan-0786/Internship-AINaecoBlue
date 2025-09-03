@@ -44,10 +44,10 @@ This repository showcases my complete internship progress at **AI NAECO BLUE**, 
 
 | Metric | Count | Description |
 |--------|-------|-------------|
-| 🎯 Days of LeetCode | 11 | Consistent problem-solving practice |
-| 💻 Problems Solved | 30+ | Algorithm & data structure mastery |
-| 📅 Weeks Completed | 3 | Structured learning progression |
-| ⚛️ Projects Built | 3+ | Hands-on development experience |
+| 🎯 Days of LeetCode | 24 | Consistent problem-solving practice |
+| 💻 Problems Solved | 70+ | Algorithm & data structure mastery |
+| 📅 Weeks Completed | 6 | Structured learning progression |
+| ⚛️ Projects Built | 5 | Hands-on development experience |
 
 ## 🔗 Project Links
 
