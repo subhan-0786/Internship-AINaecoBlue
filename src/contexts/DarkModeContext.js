@@ -1,4 +1,7 @@
+// contexts/DarkModeContext.js
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { ThemeProvider, CssBaseline } from '@mui/material';
+import { createCustomTheme } from '../theme/muiTheme';
 
 const DarkModeContext = createContext();
 
@@ -15,33 +18,33 @@ export const DarkModeProvider = ({ children }) => {
 
   // Load theme from memory on mount
   useEffect(() => {
-    const savedTheme = window.darkModeState || 'light';
-    setIsDarkMode(savedTheme === 'dark');
+    const savedTheme = window.darkModeState || 'dark';
+    setIsDarkMode(savedTheme === 'light');
   }, []);
 
-  // Apply theme to document and save to memory
+  // Save to memory when theme changes
   useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.classList.add('dark-mode');
-      window.darkModeState = 'dark';
-    } else {
-      document.documentElement.classList.remove('dark-mode');
-      window.darkModeState = 'light';
-    }
+    window.darkModeState = isDarkMode ? 'dark' : 'light';
   }, [isDarkMode]);
 
   const toggleDarkMode = () => {
     setIsDarkMode(prev => !prev);
   };
 
+  const theme = createCustomTheme(isDarkMode);
+
   const value = {
     isDarkMode,
-    toggleDarkMode
+    toggleDarkMode,
+    theme
   };
 
   return (
     <DarkModeContext.Provider value={value}>
-      {children}
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        {children}
+      </ThemeProvider>
     </DarkModeContext.Provider>
   );
 };

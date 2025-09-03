@@ -1,5 +1,6 @@
+// App.js
 import React, { useState } from 'react';
-import './App.css';
+import { Box, Container } from '@mui/material';
 import { DarkModeProvider, useDarkMode } from './contexts/DarkModeContext';
 import DarkModeToggle from './components/DarkModeToggle';
 import Header from './components/Header';
@@ -10,18 +11,22 @@ import LeetCodeJourney from './components/LeetCodeJourney';
 import WeeklyProgress from './components/WeeklyProgress';
 import Projects from './components/Projects';
 
-function AppContent() { // Rename your current App component
+function AppContent() {
   const [activeSection, setActiveSection] = useState('overview');
-  const { isDarkMode } = useDarkMode();
+  const { theme } = useDarkMode();
 
   const showSection = (sectionName) => {
     setActiveSection(sectionName);
   };
 
   return (
-    <div className={`app ${isDarkMode ? 'dark-mode' : 'light-mode'}`}>
-      <div className="container">
-        {/* Your existing components */}
+    <Box
+      sx={{
+        minHeight: '100vh',
+        background: `linear-gradient(135deg, ${theme.palette.custom.bgPrimary} 0%, ${theme.palette.custom.bgSecondary} 100%)`,
+      }}
+    >
+      <Container maxWidth="lg" sx={{ py: 2.5 }}>
         <Header />
         <StatCards />
         <Navigation activeSection={activeSection} showSection={showSection} />
@@ -29,9 +34,9 @@ function AppContent() { // Rename your current App component
         <LeetCodeJourney isActive={activeSection === 'leetcode'} />
         <WeeklyProgress isActive={activeSection === 'weekly'} />
         <Projects isActive={activeSection === 'projects'} />
-      </div>
+      </Container>
       <DarkModeToggle />
-    </div>
+    </Box>
   );
 }
 
@@ -44,4 +49,3 @@ function App() {
 }
 
 export default App;
-
