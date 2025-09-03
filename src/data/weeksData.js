@@ -44,7 +44,7 @@ export const weeks = [
       ],
     },
     {
-      title: 'Week 6: Testing in React JS',
+      title: 'Week 6: Finalizing all the Tasks',
       period: 'September 01 - September 05, 2025',
       achievements: [
         '🎯 Continued learning testing in vite-native (vitest)',
