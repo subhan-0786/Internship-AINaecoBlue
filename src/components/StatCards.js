@@ -9,13 +9,13 @@ const StatCards = () => {
     {
       emoji: '🎯',
       label: 'Days of LeetCode',
-      number: '25',
+      number: '24',
       color: theme.palette.custom.primaryBlue,
     },
     {
       emoji: '💻',
       label: 'Problems Solved',
-      number: '75',
+      number: '72',
       color: theme.palette.custom.successGreen,
     },
     {
@@ -27,7 +27,7 @@ const StatCards = () => {
     {
       emoji: '⚛️',
       label: 'Projects Completed',
-      number: '4',
+      number: '5',
       color: theme.palette.custom.purpleAccent,
     },
 ];

@@ -30,5 +30,22 @@ export const projects = [
       link: "https://drive.google.com/file/d/1MRlVt7zMie_wPuY3bVlEic-skNxgwB0d/view?usp=drive_link", 
       linkText: "View Notes PDF",
       linkType: "pdf"
+    },
+    {
+      title: "AI NAECO Blue Internship Portal",
+      description: "A portal, sleek and modern single-page prototype of portal in React.",
+      techStack: ["React Advanced", "Documentation", "Redux Toolkit"],
+      link: "https://subhan-0786.github.io/portal/", 
+      linkText: "View Portal",
+      linkType: "website"
+    },
+    {
+      title: "Testing in React JS",
+      description: "Implementation of testing as a practice using vitest because it is fast and vite-native.",
+      techStack: ["React Advanced", "Testing", "Vitest"],
+      link: "https://subhan-0786.github.io/testing-using-vitest/", 
+      linkText: "View Practice",
+      linkType: "website"
     }
+
   ];

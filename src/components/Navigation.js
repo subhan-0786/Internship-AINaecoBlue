@@ -8,7 +8,6 @@ const Navigation = ({ activeSection, showSection }) => {
   const navItems = [
     { key: 'overview', label: 'Overview' },
     { key: 'leetcode', label: 'LeetCode Journey' },
-    { key: 'weekly', label: 'React Journey' },
     { key: 'projects', label: 'Projects' },
   ];
 

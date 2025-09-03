@@ -8,7 +8,6 @@ import StatCards from './components/StatCards';
 import Navigation from './components/Navigation';
 import Overview from './components/Overview';
 import LeetCodeJourney from './components/LeetCodeJourney';
-import WeeklyProgress from './components/WeeklyProgress';
 import Projects from './components/Projects';
 
 function AppContent() {
@@ -32,7 +31,6 @@ function AppContent() {
         <Navigation activeSection={activeSection} showSection={showSection} />
         <Overview isActive={activeSection === 'overview'} />
         <LeetCodeJourney isActive={activeSection === 'leetcode'} />
-        <WeeklyProgress isActive={activeSection === 'weekly'} />
         <Projects isActive={activeSection === 'projects'} />
       </Container>
       <DarkModeToggle />

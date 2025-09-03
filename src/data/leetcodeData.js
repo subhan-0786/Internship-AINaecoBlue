@@ -94,5 +94,101 @@ export const leetcodeData = [
         { name: "Counter", file: "Counter.js" },
         { name: "Sleep", file: "Sleep.js" }
       ]
+    },
+    {
+  date: "August 21, 2025",
+      problems: [
+        { name: "Add Two Promises", file: "Add-Two-Promises.js" },
+        { name: "Allow One Function Call", file: "Allow-One-Function-Call.js" },
+        { name: "Array Prototype Last", file: "Array-Prototype-Last.js" }
+      ]
+    },
+    {
+      date: "August 22, 2025",
+      problems: [
+        { name: "Array Reduce Transformation", file: "Array-Reduce-Transformation.js" },
+        { name: "Array Wrapper", file: "Array-Wrapper.js" },
+        { name: "Chunk Array", file: "Chunk-Array.js" }
+      ]
+    },
+    {
+      date: "August 25, 2025",
+      problems: [
+        { name: "Counter II", file: "Counter-II.js" },
+        { name: "Create Hello World Function", file: "Create-Hello-World-Function.js" },
+        { name: "Function Composition", file: "Function-Composition.js" }
+      ]
+    },
+    {
+      date: "August 26, 2025",
+      problems: [
+        { name: "Interval Cancellation", file: "Interval-Cancellation.js" },
+        { name: "Return Length of Arguments Passed", file: "Return-Length-of-Arguments-Passed.js" },
+        { name: "Sort By", file: "Sort-By.js" }
+      ]
+    },
+    {
+      date: "August 27, 2025",
+      problems: [
+        { name: "Filter Elements from Array", file: "Filter-Elements-from-Array.js" },
+        { name: "Apply Transform Over Each Element in Array", file: "Apply-Transform-Over-Each-Element-in-Array.js" },
+        { name: "Generate Fibonacci Sequence", file: "Generate-Fibonacci-Sequence.js" }
+      ]
+    },
+    {
+      date: "August 28, 2025",
+      problems: [
+        { name: "Memoize", file: "Memoize.js" },
+        { name: "To Be Or Not To Be", file: "To-Be-Or-Not-To-Be.js" },
+        { name: "Timeout Cancellation", file: "Timeout-Cancellation.js" }
+      ]
+    },
+    {
+      date: "August 29, 2025",
+      problems: [
+        { name: "Snail Traversal", file: "Snail-Traversal.js" },
+        { name: "Flatten Deeply Nested Array", file: "Flatten-Deeply-Nested-Array.js" },
+        { name: "Check if Object Instance of Class", file: "Check-if-Object-Instance-of-Class.js" }
+      ]
+    },
+    {
+      date: "September 1, 2025",
+      problems: [
+        { name: "Debounce", file: "Debounce.js" },
+        { name: "Group By", file: "Group-By.js" },
+        { name: "Nested Array Generator", file: "Nested-Array-Generator.js" }
+      ]
+    },
+    {
+      date: "September 2, 2025",
+      problems: [
+        { name: "Event Emitter", file: "Event-Emitter.js" },
+        { name: "Compact Object", file: "Compact-Object.js" },
+        { name: "Execute Asynchronous Functions in Parallel", file: "Execute-Asynchronous-Functions-in-Parallel.js" }
+      ]
+    },
+    {
+      date: "September 3, 2025",
+      problems: [
+        { name: "Join Two Arrays by ID", file: "Join-Two-Arrays-by-ID.js" },
+        { name: "Calculator with Method Chaining", file: "Calculator-with-Method-Chaining.js" },
+        { name: "Is Object Empty", file: "Is-Object-Empty.js" }
+      ]
+    },
+    {
+      date: "September 4, 2025",
+      problems: [
+        { name: "Cache With Time Limit", file: "Cache-With-Time-Limit.js" },
+        { name: "Memoize II", file: "Memoize-II.js" },
+        { name: "Promise Time Limit", file: "Promise-Time-Limit.js" }
+      ]
+    },
+    {
+      date: "September 5, 2025",
+      problems: [
+        { name: "Call Function with Custom Context", file: "Call-Function-with-Custom-Context.js" },
+        { name: "Find the Number of Ways to Place People II", file: "Find-the-Number-of-Ways-to-Place-People-II.js" },
+        { name: "Zigzag Conversion", file: "Zigzag-Conversion.js" }
+      ]
     }
 ]
